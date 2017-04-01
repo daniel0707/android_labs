@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Lab4</string>
+    <string name="s1x1">7</string>
+    <string name="s1x2">8</string>
+    <string name="s1x3">9</string>
+    <string name="s1x4">/</string>
+    <string name="s2x1">4</string>
+    <string name="s2x2">5</string>
+    <string name="s2x3">6</string>
+    <string name="s2x4">*</string>
+    <string name="s3x1">1</string>
+    <string name="s3x2">2</string>
+    <string name="s3x3">3</string>
+    <string name="s3x4">-</string>
+    <string name="s4x1">0</string>
+    <string name="s4x2">C</string>
+    <string name="s4x3">=</string>
+    <string name="s4x4">+</string>
+</resources>
