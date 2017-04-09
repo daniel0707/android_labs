@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Lab5</string>
+    <string name="main_top">Amount of Euros:</string>
+    <string name="input">Input amount here</string>
+    <string name="conv">CONVERT</string>
+    <string name="theResult">Converted amount will be visible here</string>
+    <string name="dollar">USD $</string>
+    <string name="japan">YEN ￥</string>
+    <string name="choose">Choose currency</string>
+    <string name="calc">CALCULATE</string>
+</resources>

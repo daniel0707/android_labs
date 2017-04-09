@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fi.metropolia.daniel_vahla.lab5.Main"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/MainTopText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_top"
+            android:textColor="@color/text" />
+        <EditText
+            android:id="@+id/InputHere"
+            android:layout_below="@id/MainTopText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:hint="@string/input"
+            android:textColor="@color/text"
+            android:textColorHint="@color/tempText"/>
+        <TextView
+            android:id="@+id/ConvertResult"
+            android:layout_below="@id/InputHere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/theResult"
+            android:textColor="@color/tempText"/>
+        <Button
+            android:id="@+id/ConvertButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ConvertResult"
+            android:text="@string/conv"/>
+    </RelativeLayout>
+</LinearLayout>
