@@ -12,6 +12,9 @@
         android:layout_height="wrap_content"
         android:text="@string/choose"
         android:textColor="@color/tempText"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <RadioButton
         android:id="@+id/radioButton1"
         android:layout_width="match_parent"
@@ -24,6 +27,7 @@
         android:layout_height="wrap_content"
         android:text="@string/japan"
         android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
     <Button
         android:id="@+id/CalculateButton"
         android:layout_width="match_parent"
